@@ -1,0 +1,78 @@
+.bannerImage {
+  background:url(../../assets/img/bakery.jpg);
+  background-position:50%;
+  background-size:cover;
+  height:350px;
+}
+
+#bakeryNav {
+  background:rgb(201,230,247);
+}
+
+.shopInfoDiv {
+  padding:30px;
+  height:300px;
+}
+
+.shopImage {
+  width:100%;
+}
+
+.shopInfoDiv > div {
+  position:relative;
+  font-family:fantasy;
+}
+
+.shopInfoDiv > div > div > p {
+  font-size:20px;
+}
+
+.aboutBtn {
+  float:right;
+}
+
+.titleHeading {
+  background:rgb(201,230,247);
+  padding:10px;
+  border-radius:10px;
+}
+
+.reasonsDiv {
+  text-align:center;
+  font-family:fantasy;
+  margin-top:30px;
+}
+
+.icons {
+  font-size:40px;
+  color:rgb(121,170,215);
+}
+
+.reasonsDiv > div > p {
+  font-size:15px;
+}
+
+#intro {
+  max-width:100%;
+}
+
+.addBtn {
+  float:right;
+  margin-top:-73px;
+}
+
+@media (max-width:767px) {
+  .addBtn {
+    margin-top:-53px;
+  }
+}
+
+.item {
+  display:inline-block;
+}
+
+div.row.photos {
+  max-height:420px;
+  overflow-y:auto;
+}
+

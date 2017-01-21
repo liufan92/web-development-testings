@@ -1,0 +1,31 @@
+<div class="container-fluid" id="mySite" ng-controller="loginCtrl">
+    <div class="toDoBanner"></div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-11">
+            <div id="loginDiv">
+                <h1>Login: </h1>
+                <p>Username :</p>
+                <input type="text" id="loginusername" ng-model="username" onfocus="emptyElement('loginstatus')">
+                <p>Password: </p>
+                <input type="password" id="loginpassword" ng-model="password" onfocus="emptyElement('loginstatus')">
+                <a href="#">Forget Password?</a></div>
+                <span id="loginstatus" ng-bind="loginstatus"></span>
+                <button id="loginbtn" class="btn btn-default" type="button" onclick="login()" >Login</button>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div id="signupDiv">
+                <h1>Sign Up</h1>
+                <p>Username: </p>
+                <input type="text" id="signupusername" onfocus="emptyElement('signupstatus')" onblur="checkusername()" ><span id="unamestatus" ng-bind="unamestatus"></span>
+                <p>Email: </p>
+                <input type="text" id="signupemail" onfocus="emptyElement('signupstatus')">
+                <p>Password: </p>
+                <input type="password" id="pass1" onfocus="emptyElement('signupstatus')">
+                <p>Confirm Password: </p>
+                <input type="password" id="pass2" onfocus="emptyElement('signupstatus')">
+                <p id="signupstatus"></p>
+                <button id="signupbtn" class="btn btn-default" type="button" onclick="signup()">Done</button>
+            </div>
+        </div>
+    </div>
+</div>

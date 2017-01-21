@@ -1,0 +1,24 @@
+#loginDiv > a {
+  display:block;
+}
+
+#loginDiv > button {
+  display:block;
+}
+
+#signupDiv > button {
+  display:block;
+  margin-top:10px;
+}
+
+#loginbtn{
+	display: block;
+}
+
+#loginform{
+	margin-top: 100px;
+}
+
+#registerform{
+	margin-top: 100px;
+}
